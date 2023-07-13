@@ -1,0 +1,23 @@
+table {
+    border: 1px solid black;
+    background-color: brown;
+}
+td:hover {
+    background-color: yellow;
+    color:black;
+}
+tr, th {
+    background-color: black;
+    color: cornsilk;
+}
+tr, td {
+    background-color: darkgreen;
+    color: white;
+}
+.hogwarts_font_1 {
+    color: tomato;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: yellow;
+}

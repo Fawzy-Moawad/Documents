@@ -1,0 +1,19 @@
+p {
+    background-color: yellow;
+    color: green;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+
+}
+.fawzy_font {
+  color: red;
+  lighting-color: green;
+  font-size: large;
+  font-family: Lucida Sans ;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+h1 {
+  text-shadow: 0px 0px 10px green;
+}

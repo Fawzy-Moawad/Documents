@@ -1,0 +1,109 @@
+/*-----------------------------------------------------------------------------------------
+SELECT BODY AND HEADING
+------------------------------------------------------------------------------------------*/
+body {
+    background-color:#225763;
+}
+h1 {
+    color: #41d8bf;
+    margin-left: 100px;
+    text-shadow: 1px , 5px 4px rgba(0, 0, 0, 0.6);
+}
+
+/*-----------------------------------------------------------------------------------------
+SELECT THE CONTANIER 
+------------------------------------------------------------------------------------------*/
+.contanier {
+    width: 1200px;
+    height: 450px;
+    background-color: #3b50b2;
+    border: 2px; solid black;
+    border-radius: 5%;
+}
+
+/*-----------------------------------------------------------------------------------------
+SELECT ALL CHILDS  IN THE ARRAY
+------------------------------------------------------------------------------------------*/
+.contanier .gods :nth-child(-n+10) {
+    background-image: url("../images/symble.png");
+    background-color: #1dad9b;
+    color: #bcdbdf;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px; solid black ;
+    border-radius: 25%;
+    cursor: pointer;
+    transition: transform .5s ease-in-out ;
+}
+
+
+/*-----------------------------------------------------------------------------------------
+SELECT ALL CHILDS PARAGRAPHS IN THE ARRAY
+------------------------------------------------------------------------------------------*/														
+.gods:nth-child(-n+10) p {
+    color:#f16821;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8) ;
+}
+
+/*-----------------------------------------------------------------------------------------
+		HOVER, TRANSLATE& TRANSFORM EFFECTS
+------------------------------------------------------------------------------------------*/
+.contanier .gods:nth-child(-n+10) :hover {
+	background-image: url("../images/icons2.png") ;
+    background-color:#fcffc1 ;
+	transform: scale (.5) ;
+	animation-name: gods_animation;
+	animation-duration: 2.5s ;
+	animation-iteration-count: infinite ;
+	animation-timing-function: cubic-bezier(2.5, .2, .3, 2) ;
+}
+.contanier .gods:nth-child(1) :hover {
+        background-color: #febe7e ;
+}
+.contanier .gods:nth-child(2) :hover {
+    background-color: #ec7263 ;
+}
+.contanier .gods:nth-child(3) :hover {
+    background-color: #a75265 ;
+}
+.contanier .gods:nth-child(4) :hover {
+    background-color: #57385c ;
+}
+.contanier .gods:nth-child(5) :hover {
+    background-color: #febe7e ;
+}
+.contanier .gods:nth-child(6) :hover {
+    background-color: #ec7263 ;
+}
+.contanier .gods:nth-child(7) :hover {
+    background-color: #a75265 ;
+}
+.contanier .gods:nth-child(8) :hover {
+    background-color: #57385c ;
+}
+.contanier .gods:nth-child(9) :hover {
+    background-color: #febe7e ;
+}
+.contanier .gods:nth-child(10) :hover {
+    background-color: #ec7263 ;
+}
+
+/*-----------------------------------------------------------------------------------------
+		ANIMATION EFFECT
+------------------------------------------------------------------------------------------*/
+@keyframes gods_animation {
+	0%, 100% {
+	    transform: translateY (0px) ;
+	    background-image: url("../images/icons2.png")
+	}
+	50% {
+		transform: translateY (300px) ;
+	}
+}

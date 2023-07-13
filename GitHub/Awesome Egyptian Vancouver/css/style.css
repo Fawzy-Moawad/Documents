@@ -1,0 +1,39 @@
+.index-img {
+    background: url(../img/img.jpg) 50% 50%;
+    backgroung-attachment:fixed;
+
+    /* the next 3 codes are the old web codes for old browser all do 
+    the same thing as background-size tag*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; /*This is spacer before the Main title Logo*/
+    padding-bottom: 500px; /*This is spacer after the Main title Logo*/
+    color: #fff; 
+}
+.head-sub-main {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 50px 20px 10px 20px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background-color: red;
+    color: #fff;
+    text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 1);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+    display: block;
+}
+/*-------------------------------
+            NOT ACTIVATE
+-------------------------------*/
+footer {
+    
+}
